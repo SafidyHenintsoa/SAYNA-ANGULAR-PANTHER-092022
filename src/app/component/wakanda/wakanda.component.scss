@@ -1,0 +1,220 @@
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../../../assets/Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../../../assets/Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../../../assets/Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../../../assets/Fonts/WakandaForever-Regular.ttf);
+}
+
+.fontImg {
+    background-image: url(../../../assets/Illustrations/AllPages/arrière_plan.png);
+}
+
+.PageMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 10% 0% 10%;
+    align-items: center;
+}
+
+.PageMenu div img:hover {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(19%) saturate(431%) hue-rotate(219deg) brightness(95%) contrast(88%);
+}
+
+.MenuNAve {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'BEYNO';
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'BEYNO';
+    text-decoration: underline;
+}
+
+nav .active {
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
+
+/* style menu */
+
+.backgrondSection1 {
+    background-image: url(../../../assets/Illustrations/Wakanda/Pantherwakanda1.png);
+    background-size: cover;
+}
+
+.rangementSection1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding-top: 15rem;
+    padding-left: 10rem;
+    padding-bottom: 20rem;
+}
+
+.rangementSection1 h1 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 3rem;
+}
+
+.rangementSection1 h2 {
+    font-family: 'Wakanda';
+    color: #9E91B7;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.rangementSection1 p {
+    font-family: 'Cantarell';
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    width: 27%;
+    text-align: justify;
+    margin-top: 3rem;
+}
+
+
+/* style section 2 */
+
+.backgrondSection2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    gap: 7rem;
+    padding: 10%;
+    font-family: 'Cantarell';
+    font-size: 0.8rem;
+    color: white;
+    text-align: justify;
+    position: relative;
+}
+
+.backgrondSection2>* {
+    position: relative;
+    z-index: 1;
+}
+
+.backgrondSection2::after {
+    content: "";
+    background-image: url(../../../assets/Illustrations/Wakanda/Pantherwakanda2.png);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.15;
+}
+
+.backgrondSection2 p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.backgrondSection2 h3 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.3rem;
+}
+
+.backgrondSection2 img {
+    width: 100%;
+}
+
+.video iframe {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+/* style footer */
+
+footer {
+    background-image: url(../../../assets/Illustrations/AllPages/back_footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 8%;
+}
+
+.cercleMaravel {
+    background-image: url(../../../assets/Illustrations/AllPages/footer1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+}
+
+.cercleMaravel img {
+    padding: 50% 60% 55% 25%;
+}
+
+.cercleMaravel:hover {
+    transform: scale(1.1);
+}
+
+.rangementFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.rangementFooter #enColone {
+    display: flex;
+    flex-direction: column;
+}
+
+#enColone a {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.rangementFooter #enLigne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rangementFooter h2 {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    margin-bottom: 3rem;
+}
+
+.footerRetrover p {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    font-size: 0.8;
+}

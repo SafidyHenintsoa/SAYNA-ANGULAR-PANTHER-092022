@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../../../assets/Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../../../assets/Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../../../assets/Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../../../assets/Fonts/WakandaForever-Regular.ttf);
+}
+
+.contenant {
+    background-image: url(https://i.postimg.cc/x8SfXGv8/bg-1.jpg);
+    height: 880px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 800px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        font-family: 'Panthera';
+        padding-left: 10%;
+        padding-top: 10%;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+    }
+    a {
+        margin: 0 auto;
+        img {
+            padding-bottom: 60%;
+        }
+    }
+        
+}
+.cartImg{
+    width: 60px;
+}

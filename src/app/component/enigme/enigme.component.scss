@@ -1,0 +1,189 @@
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../../../assets/Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../../../assets/Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../../../assets/Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../../../assets/Fonts/WakandaForever-Regular.ttf);
+}
+
+.fontImg {
+    background-image: url(../../../assets/Illustrations/AllPages/arrière_plan.png);
+}
+
+.PageMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 10% 0% 10%;
+    align-items: center;
+}
+
+.PageMenu div img:hover {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(19%) saturate(431%) hue-rotate(219deg) brightness(95%) contrast(88%);
+}
+
+.MenuNAve {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'BEYNO';
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'BEYNO';
+    text-decoration: underline;
+}
+
+nav .active {
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
+
+/* style section 1 */
+
+.rangementSection1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.rangementSection1 .section1Img {
+    width: 55%;
+}
+
+.rangementSection1 .section1Img img {
+    width: 100%;
+}
+
+.rangementSection1 .section1Text {
+    width: 45%;
+}
+
+.section1Text h1 {
+    font-family: 'BEYNO';
+    color: white;
+    font-size: 3rem;
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 30%;
+}
+
+.backgrondText img {
+    width: 95%;
+    position: absolute;
+    top: -40%;
+    left: 0;
+}
+
+.backgrondText {
+    position: relative;
+}
+
+.backgrondText p {
+    font-family: 'Cantarell';
+    font-size: 0.7rem;
+    color: white;
+    text-align: justify;
+    width: 90%;
+    padding: 10%;
+}
+
+#tirre {
+    width: 100%;
+}
+
+
+/* style section 2 */
+
+.section2 h1 {
+    font-family: 'Wakanda';
+    color: #9E91B7;
+    letter-spacing: 0.4rem;
+    line-height: 2.3rem;
+    padding-left: 15%;
+    width: 70%;
+    margin-top: 10%;
+}
+
+.section2 p {
+    font-family: 'Cantarell';
+    font-size: 0.8rem;
+    color: white;
+    padding-left: 15%;
+    width: 44%;
+    margin: 2% 0% 0% 0%;
+}
+
+.section2 p span {
+    font-family: 'Wakanda';
+}
+
+.section2 input {
+    margin-top: 1%;
+    background: none;
+    font-family: 'Cantarell';
+    font-size: 0.8rem;
+    width: 32.5rem;
+    height: 3.5rem;
+    border-radius: 2.375rem;
+}
+
+.section2 button {
+    margin-top: 4%;
+    background: white;
+    font-family: 'Cantarell';
+    font-size: 0.8rem;
+    width: 10.875rem;
+    height: 3.375rem;
+    border-radius: 2.375rem;
+    border: none;
+    margin-bottom: 7rem;
+}
+
+.section2 button:hover {
+    filter: drop-shadow(0 0 20px #F2CEF2);
+}
+
+.section2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.posImg {
+    position: relative;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+.posImg img {
+    position: absolute;
+    width: 35rem;
+    top: -6rem;
+    left: 19rem;
+}
+
+.posImg p {
+    text-align: center;
+}

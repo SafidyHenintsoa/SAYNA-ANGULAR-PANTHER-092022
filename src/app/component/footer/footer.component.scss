@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Panthera';
+    src: url(../../../assets/Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../../../assets/Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../../../assets/Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../../../assets/Fonts/WakandaForever-Regular.ttf);
+}
+
+footer {
+    background-image: url(../../../assets/Illustrations/AllPages/back_footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 8%;
+}
+
+.cercleMaravel {
+    background-image: url(../../../assets/Illustrations/AllPages/footer1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+}
+
+.cercleMaravel img {
+    padding: 50% 60% 55% 25%;
+}
+
+.cercleMaravel:hover {
+    transform: scale(1.1);
+}
+
+.rangementFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.rangementFooter #enColone {
+    display: flex;
+    flex-direction: column;
+}
+
+#enColone a {
+    margin-bottom: 1rem;
+}
+
+.rangementFooter #enLigne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rangementFooter h2 {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    margin-bottom: 3rem;
+}
+
+.footerRetrover p {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    font-size: 0.8;
+}

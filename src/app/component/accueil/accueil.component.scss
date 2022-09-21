@@ -1,0 +1,445 @@
+
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../../../assets/Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../../../assets/Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../../../assets/Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../../../assets/Fonts/WakandaForever-Regular.ttf);
+}
+
+
+
+
+/* reseau socio */
+
+.ReseauSocio {
+    display: flex;
+    flex-direction: column;
+    width: 3%;
+    position: fixed;
+    gap: 5px;
+    padding: 0 3px;
+    border-left: 3px solid #9E91B7;
+    margin-left: 5%;
+}
+
+.ReseauSocio1 {
+    height: 300px;
+    width: 40%;
+    border-right: 3px solid #9E91B7;
+}
+
+
+/* ************ */
+
+.PageMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 10% 0% 10%;
+    align-items: center;
+}
+
+.PageMenu div img:hover {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(19%) saturate(431%) hue-rotate(219deg) brightness(95%) contrast(88%);
+}
+
+.MenuNAve {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'BEYNO';
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'BEYNO';
+    text-decoration: underline;
+}
+
+nav .active {
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
+.ContenuPremierePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.premierPage {
+    width: 30%;
+    display: flex;
+    gap: 100%;
+    flex-direction: column;
+}
+
+.premierPage *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.ImgPremierPage {
+    width: 70%;
+}
+
+.ImgPremierPage img {
+    width: 100%;
+}
+
+.premierPage h1 {
+    font-family: 'Panthera';
+    color: #9E91B7;
+    font-size: 2.8rem;
+}
+
+.premierPage h2 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.5rem;
+}
+
+.premierPage p,
+a {
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.9rem;
+}
+
+.rangementImg {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7%;
+    justify-content: flex-end;
+}
+
+.acteurSelectionner {
+    transform: scale(1.2);
+}
+
+.imgEtText {
+    display: flex;
+    flex-direction: row;
+    background-color: #021740;
+    padding-left: 2%;
+    width: 41%;
+}
+
+.imgEtTextSans {
+    width: 18%;
+    padding-left: 1%;
+    background-color: #021740;
+}
+
+.texte {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 60%;
+}
+
+.immage {
+    height: 100%;
+}
+
+.immage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btnNext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #07338c;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.texte h2 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.5rem;
+    padding-bottom: 3%;
+}
+
+.texte p {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.texte a {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+/* page3 */
+
+.divisionTextImg {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
+.page3Te {
+    width: 45%;
+}
+
+.page3Img {
+    width: 55%;
+    text-align: center;
+}
+
+.page3Te h2 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+
+.page3Te p {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.7rem;
+    text-align: justify;
+}
+
+.ImgPantherhome5 {
+    padding: 0% 25%;
+}
+
+.ImgPantherhome5 img {
+    width: 100%;
+}
+
+.ImgPantherhome6 {
+    padding: 20% 25% 0% 25%;
+}
+
+.ImgPantherhome6 img {
+    width: 100%;
+}
+
+.page3Texte {
+    background-color: #F2CEF2;
+    border-radius: 0.8rem;
+    margin: -37% 20% 0% 20%;
+    padding-top: 40%;
+}
+
+.page3Texte h3 {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 1.5rem;
+}
+
+.page3Texte div button {
+    background-color: #3D2DA6;
+    font-family: 'Cantarell';
+    color: white;
+    font-size: 0.5rem;
+    padding: 4% 7% 4% 7%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.page3Texte p {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 0.7rem;
+    text-align: left;
+    padding-top: 0.5rem;
+}
+
+.page3Texte p span {
+    font-weight: bold;
+}
+
+.alline {
+    display: flex;
+    flex-direction: column;
+    padding: 7% 15% 15% 15%;
+}
+
+.alineButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* style contacte */
+
+.PrenonContact {
+    background-image: url(../../../assets/Illustrations/Accueil/Pantherhome7.png);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+.backgroundContact {
+    margin-top: 10%;
+    padding: 3% 0% 3% 0%;
+    width: 60%;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.897), rgba(242, 206, 242, 0.2));
+    border-radius: 10rem;
+    margin-bottom: 5%;
+}
+
+.backgroundContact p {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+.backgroundContact h1 {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.backgroundContact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroundContact form input {
+    width: 520px;
+    height: 56px;
+    background: none;
+    border-radius: 38px;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+.backgroundContact form textarea {
+    height: 200px;
+    width: 520px;
+    background: none;
+    border-radius: 38px;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+}
+
+.backgroundContact button {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    background-color: #F2CEF2;
+    margin-top: 30px;
+    border: none;
+}
+
+.backgroundContact button:hover {
+    filter: drop-shadow(0 0 20px #021740);
+}
+
+
+/*  style footer */
+
+
+
+
+
+
+/* annimation fade in*/
+
+// .animate {
+//     opacity: 0;
+//     transform: translateX(-130px);
+// }
+
+// .animate-visible {
+//     opacity: 1;
+//     transform: translateX(0);
+//     transition: 1s cubic-bezier(.5, 0, 0, 1);
+// }
+
+// .ReseauSocio {
+//     opacity: 0;
+//     transform: translateY(-400px);
+// }
+
+// .ReseauSocio-visible {
+//     opacity: 1;
+//     transform: translateY(0);
+//     transition: 1s cubic-bezier(.5, 0, 0, 1);
+// }
+
+.popup {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 380px;
+}
+
+.popup::before {
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: -1;
+    width: 150%;
+    height: 150%;
+    filter: blur(8px);
+    background: linear-gradient(#3d2da6, #021740);
+    border-radius: 1rem;
+}
+
+.popup-body {
+    padding: 2rem 3rem 4.5rem 3rem;
+    background: linear-gradient(180deg, #9e91b7, #3d2da6);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.popup-body *:only-child {
+    margin: 0;
+    padding-top: 2.5rem;
+}
