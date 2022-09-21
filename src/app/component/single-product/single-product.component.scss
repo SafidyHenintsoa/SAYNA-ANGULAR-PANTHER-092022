@@ -1,0 +1,44 @@
+.conteneur-single {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .white-color {
+    border-top: 2px solid white;
+  }
+  
+  .border {
+    border: 2px solid;
+    border-color: red !important;
+    border-radius: 25px;
+    padding: 5px 40px;
+    color: red;
+  }
+  
+  .description {
+    font-size: 14px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.747);
+  }
+  
+  .caracteristiques,
+  .gray {
+    color: rgb(214, 209, 209);
+  }
+  button{
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    height: 200%;
+    border: none;
+    border-radius: 2rem;
+}
+.etoil{
+    width: 20px;
+}
+h1{
+    color: rgba(255, 255, 255, 0.671);
+}
+h3{
+    color: rgba(255, 255, 255, 0.671);
+}

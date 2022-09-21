@@ -13,6 +13,8 @@ import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { AsideComponent } from './component/aside/aside.component';
 import { ProductsComponent } from './component/products/products.component';
+import { SingleProductComponent } from './component/single-product/single-product.component';
+import { CarteComponent } from './component/carte/carte.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { ProductsComponent } from './component/products/products.component';
     FooterComponent,
     AsideComponent,
     ProductsComponent,
+    SingleProductComponent,
+    CarteComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

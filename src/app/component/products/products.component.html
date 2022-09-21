@@ -1,18 +1,20 @@
 <div class="row">
   <ng-container *ngFor="let productItem of products">
-    <div class="col-md-4">
-      <div class="card my-3">
-        <img
-          routerLink="product/{{ productItem.id }}"
-          class="card-img-top"
-          [src]="productItem.imageUrl"
-          alt="Card image cap"
-        />
-        <div class="bg-dark py-3 text-center">
-          <h5 class="card-title">{{ productItem.Nom_A | uppercase }}</h5>
-          <h5 class="card-price">{{ productItem.Prix | currency: "EUR" }}</h5>
+    <div class="col-md-4 pb-5 pt-3">
+      <a routerLink="product/{{ productItem.id }}">
+        <div class="card my-3">
+          <img
+            routerLink="product/{{ productItem.id }}"
+            class="card-img-top"
+            [src]="productItem.imageUrl"
+            alt="Card image cap"
+          />
+          <div class="bg-dark py-3 text-center">
+            <h5 class="card-title">{{ productItem.Nom_A | uppercase }}</h5>
+            <h5 class="card-price">{{ productItem.Prix | currency: "EUR" }}</h5>
+          </div>
         </div>
-      </div>
+      </a>
       <button class="w-100">Ajouter au panier</button>
     </div>
   </ng-container>

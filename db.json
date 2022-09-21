@@ -4,7 +4,7 @@
     {
       "id": "1",
       "Nom_A": "SAC A DOS",
-      "imageUrl": "https://i.postimg.cc/KYfHKM6Q/article-1.png",
+      "imageUrl": "https://i.postimg.cc/dtcMKt6s/article-1.jpg",
       "Categorie": "SAC",
       "Univers": "The Batman",
       "Prix": "25",
@@ -19,7 +19,7 @@
     {
       "id": "2",
       "Nom_A": "POSTER BATMAN (2022)",
-      "imageUrl": "https://i.postimg.cc/PfCdjXD0/article-2.png",
+      "imageUrl": "https://i.postimg.cc/7ZVr98gx/article-2.jpg",
       "Categorie": "POSTER",
       "Univers": "The Batman",
       "Prix": "32",
@@ -34,7 +34,7 @@
     {
       "id": "3",
       "Nom_A": "SWEAT \"WHY SO SERIOUS\"",
-      "imageUrl": "https://i.postimg.cc/L8X1SPD2/article-3.png",
+      "imageUrl": "https://i.postimg.cc/259RpQcM/article-3.jpg",
       "Categorie": "SWEAT",
       "Univers": "The Batman",
       "Prix": "32",
@@ -49,7 +49,7 @@
     {
       "id": "4",
       "Nom_A": "HORLOGE",
-      "imageUrl": "https://i.postimg.cc/tTmvkHCx/article-4.png",
+      "imageUrl": "https://i.postimg.cc/gJ1CjYPK/article-4.jpg",
       "Categorie": "equipement",
       "Univers": "Batman V Superman",
       "Prix": "8",
@@ -64,7 +64,7 @@
     {
       "id": "5",
       "Nom_A": "MUG",
-      "imageUrl": "https://i.postimg.cc/sxQ600v0/article-5.png",
+      "imageUrl": "https://i.postimg.cc/SN6BQF1W/article-5.jpg",
       "Categorie": "equipement",
       "Univers": "Batman V Superman",
       "Prix": "15",
@@ -79,7 +79,7 @@
     {
       "id": "6",
       "Nom_A": "MUG DE VOYAGE",
-      "imageUrl": "https://i.postimg.cc/RhksrQtC/article-6.png",
+      "imageUrl": "https://i.postimg.cc/YSCKyn3Q/article-6.jpg",
       "Categorie": "equipements ",
       "Univers": "Batman et Robin",
       "Prix": "25",
@@ -94,7 +94,7 @@
     {
       "id": "7",
       "Nom_A": "SWEAT \"WHY SO SERIOUS\"",
-      "imageUrl": "https://i.postimg.cc/qMn0N1jL/article-7.png",
+      "imageUrl": "https://i.postimg.cc/0jmLJLk1/article-7.jpg",
       "Categorie": "Vêtements ",
       "Univers": "Batman et Robin",
       "Prix": "32",
@@ -109,7 +109,7 @@
     {
       "id": "8",
       "Nom_A": "T-SHIRT BATMOBILE",
-      "imageUrl": "https://i.postimg.cc/sfbsfk9x/article-8.png",
+      "imageUrl": "https://i.postimg.cc/C1ZywR91/article-8.jpg",
       "Categorie": "Vêtements ",
       "Univers": "Autres (comics, dessins animés)",
       "Prix": "25",
@@ -124,7 +124,7 @@
     {
       "id": "9",
       "Nom_A": "HORLOGE TOURNANTE",
-      "imageUrl": "https://i.postimg.cc/G3TnfMwC/article-9.png",
+      "imageUrl": "https://i.postimg.cc/nhTN7KJr/article-12.jpg",
       "Categorie": "Équipements ",
       "Univers": "The Dark Night Rises",
       "Prix": "8",
@@ -135,73 +135,6 @@
       "Couleur": null,
       "Poids": null,
       "Capacité": null
-    },
-    {
-      "id": "10",
-      "Nom_A": "SWEAT \"WHY SO SERIOUS\"",
-      "imageUrl": "https://i.postimg.cc/J0XwBhcn/article-10.png",
-      "Categorie": "Vêtements ",
-      "Univers": "The Dark Night Rises",
-      "Prix": "32",
-      "Nombre": "4",
-      "Taille": "M",
-      "Description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      "Matériaux": null,
-      "Couleur": "BLANC",
-      "Poids": null,
-      "Capacité": null
-    },
-    {
-      "id": "11",
-      "Nom_A": "SWEAT \"WHY SO SERIOUS\"",
-      "imageUrl": "https://i.postimg.cc/rF622SMt/article-11.png",
-      "Categorie": "Vêtements ",
-      "Univers": "",
-      "Prix": "32",
-      "Nombre": "5",
-      "Taille": "XL",
-      "Description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
-      "Matériaux": null,
-      "Couleur": "ROUGE",
-      "Poids": null,
-      "Capacité": null
-    },
-    {
-      "id": "12",
-      "Nom_A": "MUG DE VOYAGE",
-      "imageUrl": "https://i.postimg.cc/5tPWhT2x/article-12.png",
-      "Categorie": "Équipements ",
-      "Univers": "",
-      "Prix": "8",
-      "Nombre": "3",
-      "Taille": null,
-      "Description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
-      "Matériaux": null,
-      "Couleur": "NOIR",
-      "Poids": null,
-      "Capacité": null
-    },
-    {
-      "id": "13",
-      "Nom_A": "MUG DE VOYAGE",
-      "imageUrl": "https://i.postimg.cc/MGZ8rqxP/article-13.png",
-      "Categorie": "Équipements ",
-      "Univers": "",
-      "Prix": "8",
-      "Nombre": "2",
-      "Taille": null,
-      "Description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      "Matériaux": null,
-      "Couleur": "BLANC",
-      "Poids": null,
-      "Capacité": null
-    }
-  ],
-  "commentaires": [
-    {
-      "id":"1",
-      "body": "some comment",
-      "postId": 1
     }
   ]
 }

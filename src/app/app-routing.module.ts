@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AccueilComponent } from './component/accueil/accueil.component';
+import { CarteComponent } from './component/carte/carte.component';
 import { EnigmeComponent } from './component/enigme/enigme.component';
 import { EshopComponent } from './component/eshop/eshop.component';
 import { MonComptComponent } from './component/mon-compt/mon-compt.component';
+import { SingleProductComponent } from './component/single-product/single-product.component';
 import { WakandaComponent } from './component/wakanda/wakanda.component';
 
 const routes: Routes = [
@@ -13,6 +15,8 @@ const routes: Routes = [
   { path: 'enigme', component: EnigmeComponent },
   { path: 'eshop', component: EshopComponent },
   { path: 'monCompt', component: MonComptComponent },
+  { path: 'eshop/product/:id', component: SingleProductComponent },
+  { path: 'carte', component: CarteComponent },
 ];
 
 @NgModule({
