@@ -15,6 +15,8 @@ import { AsideComponent } from './component/aside/aside.component';
 import { ProductsComponent } from './component/products/products.component';
 import { SingleProductComponent } from './component/single-product/single-product.component';
 import { CarteComponent } from './component/carte/carte.component';
+import { CommandeComponent } from './component/commande/commande.component';
+import { InscriptionCommandeComponent } from './component/inscription-commande/inscription-commande.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { CarteComponent } from './component/carte/carte.component';
     ProductsComponent,
     SingleProductComponent,
     CarteComponent,
+    CommandeComponent,
+    InscriptionCommandeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

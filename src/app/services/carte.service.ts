@@ -38,6 +38,6 @@ export class CarteService {
     //   });
     //   this.productList.next(this.cartItemList);
     // }
-    return this.http.delete('http://localhost:3000/cart' + productId);
+    return this.http.delete('http://localhost:3000/cart/' + productId);
   }
 }

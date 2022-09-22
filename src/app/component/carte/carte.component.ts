@@ -17,8 +17,17 @@ export class CarteComponent implements OnInit {
       this.products = res;
       this.grandTotal = 0;
       this.products.forEach((item: any) => {
-        this.grandTotal += item.quantity * item.Prix;
+        this.grandTotal += item.Prix;
       });
     });
+  }
+
+  removeItem(productId: any) {
+    if (confirm('Es tu sure de supprimer ce produit')) {
+      this.cartService.removeCartItem(productId).subscribe(() => {
+        alert('Suppression avec succes');
+        window.location.reload();
+      });
+    }
   }
 }
