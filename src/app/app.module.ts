@@ -18,6 +18,11 @@ import { CarteComponent } from './component/carte/carte.component';
 import { CommandeComponent } from './component/commande/commande.component';
 import { InscriptionCommandeComponent } from './component/inscription-commande/inscription-commande.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InscriptionComponent } from './component/inscription/inscription.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirnationCommandeComponent } from './component/confirnation-commande/confirnation-commande.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,8 +39,16 @@ import { InscriptionCommandeComponent } from './component/inscription-commande/i
     CarteComponent,
     CommandeComponent,
     InscriptionCommandeComponent,
+    InscriptionComponent,
+    ConfirnationCommandeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,0 +1,47 @@
+<div class="row">
+  <div class="col ms-5">
+    <div class="d-flex justify-content-around mt-5">
+      <div class="compte-info my-5">
+        <div class="info-perso">
+          <h1 class="my-4">Informations personnelles</h1>
+          <div class="content">
+            <p>Nom: Dupont</p>
+            <p>Prenom : Edeline</p>
+            <p>Mot de passe: lorem ipsum</p>
+            <p>Email: edelineprty@gmail.com</p>
+            <p>numero de téléphone: 060612756</p>
+            <p>adresse de Livraison : rue panamericaine, 234, marve 43,PARIS</p>
+            <p>
+              adresse de facturation : rue panamericaine, 234, marve 43,PARIS
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter"></div>
+    </div>
+  </div>
+  <div class="col mt-5">
+    <ng-container *ngFor="let productItem of products">
+      <div
+        class="d-flex justify-content-between align-items-center border-product"
+      >
+        <div class="product d-flex align-items-center" style="width: 60%">
+          <img width="30%" [src]="productItem.imageUrl" alt="" />
+          <div class="mx-4">
+            <h5>{{ productItem.Nom_A }}</h5>
+            <span>Numéro de produit X000 {{ productItem.id }}</span>
+          </div>
+        </div>
+        <div class="price">
+          <p>{{ productItem.Prix | currency: "EUR" }}</p>
+        </div>
+      </div>
+    </ng-container>
+    <div class="sous-total container-largeur">
+      <h4 class="float-end">
+        <strong> Sous Total : {{ grandTotal | currency: "EUR" }}</strong>
+      </h4>
+    </div>
+    <button class="w-50">PAYER</button>
+  </div>
+</div>

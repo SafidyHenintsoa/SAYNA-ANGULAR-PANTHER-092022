@@ -1,0 +1,24 @@
+div{
+    color: azure;
+}
+.border-product {
+    border: 2px solid white;
+    padding: 20px 40px;
+    margin-bottom: 15px;
+    margin-right: 10rem;
+  }
+
+  .container-largeur {
+    width: 70%;
+    margin: 0 auto;
+  }
+  button{
+    background: linear-gradient(90deg, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    height: 4rem;
+    border: none;
+    margin: 0% 10% 0% 10%;
+    border-radius: 2rem;
+}

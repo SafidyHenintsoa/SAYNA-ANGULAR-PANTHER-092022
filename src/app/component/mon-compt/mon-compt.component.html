@@ -1,1 +1,79 @@
-<p>mon-compt works!</p>
+<section id="hero">
+  <div class="hero-image">
+    <div class="container">
+      <h1 class="hero-title text-uppercase text-white">
+        Votre identité <br />
+        <br />
+        Secrete...
+      </h1>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="d-flex justify-content-around mt-5">
+      <div class="aside-menu">
+        <nav>
+          <ul class="d-flex flex-column">
+            <a href="">informations</a>
+            <a href="">Historique des commandes</a>
+            <a href="">Mes avis</a>
+            <a href="">Mes favoris</a>
+            <button class="mt-5" (click)="logout()">DECONNEXION</button>
+          </ul>
+        </nav>
+      </div>
+      <div class="compte-info my-5">
+        <div class="info-perso">
+          <h1 class="my-4">Informations personnelles</h1>
+          <div class="content">
+            <p>Nom: {{ utilisateur.nom }}</p>
+            <p>Prenom {{ utilisateur.prenom }}</p>
+
+            <p>Email: {{ utilisateur.email }}</p>
+
+            <p>adresse de Livraison : rue panamericaine, 234, marve 43,PARIS</p>
+            <p>
+              adresse de facturation : rue panamericaine, 234, marve 43,PARIS
+            </p>
+          </div>
+          <button>MODIFIER</button>
+        </div>
+        <div class="info-newsletter">
+          <h1 class="my-4">Newsletter</h1>
+          <div class="content">
+            <p>
+              Abonnez vous à la newsletter ! Ne ratez pas nos offres
+              exceptionnels sur votre article préféré !
+            </p>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                OUI
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                Non
+              </label>
+            </div>
+          </div>
+          <button>ENREGISTRER</button>
+        </div>
+      </div>
+      <div class="newsletter"></div>
+    </div>
+  </div>
+</section>

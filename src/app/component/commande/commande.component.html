@@ -74,5 +74,10 @@
 </div>
 <section class="container container-largeur d-flex mx-auto my-5">
   <button routerLink="/carte">Revenir au panier</button>
-  <button routerLink="livraison">CONTINUER VERS LE PAIEMENT</button>
+  <ng-container *ngIf="con; else confalse">
+    <button routerLink="/confirmationFinal">CONFIRMER LE PAYEMENT</button>
+  </ng-container>
+  <ng-template #confalse>
+    <button routerLink="/connection">CONTINUER VERS LE PAYEMENT</button>
+  </ng-template>
 </section>
