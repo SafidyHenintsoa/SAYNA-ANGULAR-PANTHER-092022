@@ -31,6 +31,7 @@ export class MonComptComponent implements OnInit {
     });
   }
   logout() {
+    this.utilisa.loginout();
     this.router.navigateByUrl('eshop');
   }
 }
