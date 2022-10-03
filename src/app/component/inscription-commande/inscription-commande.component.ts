@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { InscritionService } from 'src/app/services/inscrition.service';
+import { __values } from 'tslib';
 
 @Component({
   selector: 'private router: Router',
@@ -36,10 +37,17 @@ export class InscriptionCommandeComponent implements OnInit {
 
       if (utilisateur) {
         alert('Vous etes connecte');
-        this.loginForm.reset();
 
         this.authService.suisConnecte = true;
         this.router.navigateByUrl('/cart/commande');
+        this.authService.login_2(this.loginForm.value).subscribe();
+
+        // this.http
+        //   .post(
+        //     'http://localhost:3000/utilisateurConnecter',
+        //     this.loginForm.value
+        //   )
+        this.loginForm.reset();
       } else {
         alert('Veuillez enregistre');
       }

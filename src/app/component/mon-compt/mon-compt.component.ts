@@ -20,7 +20,9 @@ export class MonComptComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.utilisateur = this.utilisa.login().subscribe();
+    this.utilisa.getUtilisateurConnecter().subscribe((res: any) => {
+      this.utilisateur = res[0];
+    });
 
     this.cartService.getProducts().subscribe((res) => {
       this.products = res;
